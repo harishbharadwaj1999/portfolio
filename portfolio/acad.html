@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="acadcss.css">
+        <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+    </script>
+    <script> 
+        $(function(){
+          $("#header").load("header.html"); 
+          $("#footer").load("footer.html"); 
+        });
+        </script>
+    </head>
+    <body>
+        <header id="header"></header>
+        <div id="cont2">
+            <h1>My Academic Record</h1>
+            <div id="book">
+                <table>
+                    <tr>
+                        <th>
+                            Grade/Semester
+                        </th>
+                        <th id="b">
+                            CGPA/Percentage/GPA
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>10th Grade</td>
+                        <td>10 CGPA</td>
+                    </tr>
+                    <tr>
+                        <td>12th Grade</td>
+                        <td>92.6%</td>
+                    </tr>
+                    <tr>
+                        <td>Semester 1</td>
+                        <td>9.05 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>Semester 2</td>
+                        <td>9 GPA</td>
+                    </tr>
+                    <br>
+                    <tr>
+                        <th>
+                            Grade/Semester
+                        </th>
+                        <th id="b">
+                            CGPA/Percentage/GPA
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>Semester 3</td>
+                        <td>8.75 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>Semester 4</td>
+                        <td>9.26 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>Semester 5</td>
+                        <td>9.38 GPA</td>
+                    </tr>
+                    <tr>
+                        <td>Overall 5 Sems </td>
+                        <td>9.1 CGPA</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </div>
+        <footer id="footer"></footer>
+    </body>
+</html>

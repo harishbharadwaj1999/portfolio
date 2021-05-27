@@ -1,0 +1,112 @@
+body{
+    margin-top: 0%;
+    margin-left: 0%;
+    background-color: #97BC62FF;
+}
+#cont1{
+    margin: 0 auto;
+    padding-top: 5%;
+    max-width: 1200px;
+    background-color: #2C5F2D;
+    /* border-radius: 4%; */
+}
+#sec1{
+    height: 600px;
+}
+#conten{
+    margin-left: 2%;
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 75%;
+    text-align: justify;
+    color: #CBCE91FF;
+}
+#conten h1{
+    font-size: 40px;
+    color: #CBCE91FF;
+}
+#sec1 img{
+    float: right;
+    border: #97BC62FF;
+    border-style: solid;
+    border-width: thick;
+    border-radius: 50%;
+    width: 200px;
+}
+#sec2 span{
+    color: #FFA351FF;
+    font-size: 40px;
+    margin-left: 4.33%;
+}
+#sec2 video{
+    margin-left: 8.33%;
+    height: 565px;
+    width: 1000px;
+}
+#sec3{
+    padding-top: 5%;
+    color: #CBCE91FF;
+    font-size: 20px;
+}
+#sec3 h1{
+    color: #FFA351FF;
+    font-size: 60px;
+    /* text-decoration:underline; */
+    margin-left: 5%;
+}
+#sec3 h2{
+    color: #FFE77AFF;
+    text-decoration: underline;
+    margin-left: 10%;
+}
+#sec3 ul{
+    margin-left: 10%;
+    width: 80%;
+    text-align: justify;
+}
+#sec3 li{
+    margin-left: 5%;
+    width: 80%;
+    text-align: justify;
+}
+#sec4{
+    padding-top: 5%;
+}
+#sec4 h1{
+    color: #FFA351FF;
+    /* text-decoration:underline; */
+    margin-left: 5%;
+    font-size: 60px;
+}
+#tb{
+    margin-left: 2.5%;
+    background: url('me2.jpeg');
+    background-repeat: no-repeat;
+    height: 100%;
+}
+table{
+    margin-left: 4%;
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent;
+    border-spacing: 15px;
+}
+td{
+    width: 200px;
+    padding: 1%;
+    font-size: 25px;
+    background-color: transparent;
+    border-radius: 20px;
+    border-style: solid;
+    text-align: center;
+    font-weight: bolder;
+    color: white;
+}
+#mys{
+    font-size: 28px;
+    text-align: justify;
+    width: 45%;
+    font-weight: bolder;
+    margin-top: 14%;
+    margin-left: 25%;
+}
